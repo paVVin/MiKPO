@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e422510e-e180-49bc-aff1-df180bf14771" name="PAVVIN@PAVVIN-PC 2014-09-26 20:15:39" runUser="PAVVIN-PC\PAVVIN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4d9899d7-1909-47d2-82d6-bdb7a4dab225">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PAVVIN_PAVVIN-PC 2014-09-26 20_15_39">
+      <DeploymentItem filename="C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\bin\Debug\Vinnik_Handyukov.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-26T20:15:39.3232383+06:00" queuing="2014-09-26T20:15:39.3317394+06:00" start="2014-09-26T20:15:39.3542422+06:00" finish="2014-09-26T20:15:40.1658453+06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCheck1" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="c7099b90-4b83-6407-b217-b0d757c027eb">
+      <Execution id="fbadd8a8-aad9-4e45-ae63-4094169aae91" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheck1" />
+    </UnitTest>
+    <UnitTest name="TestCalcHamma" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="f6549885-ea20-1c9f-08ca-a651e5a2b0c1">
+      <Execution id="c743c33e-a909-4809-9081-72f84485baf1" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalcHamma" />
+    </UnitTest>
+    <UnitTest name="TestToRad" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="760649c4-9401-2b48-9cc2-4f7b8e7ef4ad">
+      <Execution id="27bc2fc2-7d1b-4408-8e2c-15ffb1c19db8" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestToRad" />
+    </UnitTest>
+    <UnitTest name="TestCalcC" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="d905214a-0b6a-8ea3-c22a-8594a3904ae4">
+      <Execution id="72148eb5-de3b-4076-858a-65ff754aad71" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalcC" />
+    </UnitTest>
+    <UnitTest name="TestMain2" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="eb705fd3-2c48-d7d8-45d8-e28099c65753">
+      <Execution id="5fa880a7-cecb-40c5-918f-907d5abda4f6" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMain2" />
+    </UnitTest>
+    <UnitTest name="TestCheck3" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="c1d5f9f6-8c49-7906-8f05-c60e2c9c0710">
+      <Execution id="9da407bc-99d4-473c-bd35-3ec1fb5272a5" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheck3" />
+    </UnitTest>
+    <UnitTest name="TestCheck2" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="cc93fb6a-2fdd-4ca0-ce14-1fad4e30bec4">
+      <Execution id="07baceb3-53cf-4146-aa82-c2363240ab4f" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheck2" />
+    </UnitTest>
+    <UnitTest name="TestMain1" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="cda0b258-88d1-16ab-b8fd-2c860414e549">
+      <Execution id="1bf73879-e153-4788-8a3d-d87ec24c4865" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMain1" />
+    </UnitTest>
+    <UnitTest name="TestCalcBeta" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="cd8f623d-4ac9-f0ca-3b45-f26e7ecaf0d8">
+      <Execution id="f1047f84-4c06-49a3-a7ec-568feff5e381" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalcBeta" />
+    </UnitTest>
+    <UnitTest name="TestToGRad" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="77f3d16f-f6b2-1614-edbc-bcb765aeebdc">
+      <Execution id="7333238b-8db7-4fc8-9b0e-eab5241b890a" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestToGRad" />
+    </UnitTest>
+    <UnitTest name="TestMain3" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="c729d40a-9398-15a7-70c0-36089313dbe0">
+      <Execution id="00f11791-6678-4000-ba35-e6a642afb5fe" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMain3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="760649c4-9401-2b48-9cc2-4f7b8e7ef4ad" executionId="27bc2fc2-7d1b-4408-8e2c-15ffb1c19db8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f3d16f-f6b2-1614-edbc-bcb765aeebdc" executionId="7333238b-8db7-4fc8-9b0e-eab5241b890a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1d5f9f6-8c49-7906-8f05-c60e2c9c0710" executionId="9da407bc-99d4-473c-bd35-3ec1fb5272a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7099b90-4b83-6407-b217-b0d757c027eb" executionId="fbadd8a8-aad9-4e45-ae63-4094169aae91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c729d40a-9398-15a7-70c0-36089313dbe0" executionId="00f11791-6678-4000-ba35-e6a642afb5fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc93fb6a-2fdd-4ca0-ce14-1fad4e30bec4" executionId="07baceb3-53cf-4146-aa82-c2363240ab4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd8f623d-4ac9-f0ca-3b45-f26e7ecaf0d8" executionId="f1047f84-4c06-49a3-a7ec-568feff5e381" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cda0b258-88d1-16ab-b8fd-2c860414e549" executionId="1bf73879-e153-4788-8a3d-d87ec24c4865" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d905214a-0b6a-8ea3-c22a-8594a3904ae4" executionId="72148eb5-de3b-4076-858a-65ff754aad71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb705fd3-2c48-d7d8-45d8-e28099c65753" executionId="5fa880a7-cecb-40c5-918f-907d5abda4f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6549885-ea20-1c9f-08ca-a651e5a2b0c1" executionId="c743c33e-a909-4809-9081-72f84485baf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="27bc2fc2-7d1b-4408-8e2c-15ffb1c19db8" testId="760649c4-9401-2b48-9cc2-4f7b8e7ef4ad" testName="TestToRad" computerName="PAVVIN-PC" duration="00:00:00.0176990" startTime="2014-09-26T20:15:39.3672439+06:00" endTime="2014-09-26T20:15:39.6302773+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27bc2fc2-7d1b-4408-8e2c-15ffb1c19db8">
+    </UnitTestResult>
+    <UnitTestResult executionId="7333238b-8db7-4fc8-9b0e-eab5241b890a" testId="77f3d16f-f6b2-1614-edbc-bcb765aeebdc" testName="TestToGRad" computerName="PAVVIN-PC" duration="00:00:00.0005247" startTime="2014-09-26T20:15:39.6402785+06:00" endTime="2014-09-26T20:15:39.6487796+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7333238b-8db7-4fc8-9b0e-eab5241b890a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9da407bc-99d4-473c-bd35-3ec1fb5272a5" testId="c1d5f9f6-8c49-7906-8f05-c60e2c9c0710" testName="TestCheck3" computerName="PAVVIN-PC" duration="00:00:00.0006673" startTime="2014-09-26T20:15:39.6532802+06:00" endTime="2014-09-26T20:15:39.6582808+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9da407bc-99d4-473c-bd35-3ec1fb5272a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="fbadd8a8-aad9-4e45-ae63-4094169aae91" testId="c7099b90-4b83-6407-b217-b0d757c027eb" testName="TestCheck1" computerName="PAVVIN-PC" duration="00:00:00.0002392" startTime="2014-09-26T20:15:39.6617813+06:00" endTime="2014-09-26T20:15:39.6662818+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbadd8a8-aad9-4e45-ae63-4094169aae91">
+    </UnitTestResult>
+    <UnitTestResult executionId="00f11791-6678-4000-ba35-e6a642afb5fe" testId="c729d40a-9398-15a7-70c0-36089313dbe0" testName="TestMain3" computerName="PAVVIN-PC" duration="00:00:00.0010642" startTime="2014-09-26T20:15:39.6702823+06:00" endTime="2014-09-26T20:15:39.6752830+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00f11791-6678-4000-ba35-e6a642afb5fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="07baceb3-53cf-4146-aa82-c2363240ab4f" testId="cc93fb6a-2fdd-4ca0-ce14-1fad4e30bec4" testName="TestCheck2" computerName="PAVVIN-PC" duration="00:00:00.0002307" startTime="2014-09-26T20:15:39.6792835+06:00" endTime="2014-09-26T20:15:39.6837841+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07baceb3-53cf-4146-aa82-c2363240ab4f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f1047f84-4c06-49a3-a7ec-568feff5e381" testId="cd8f623d-4ac9-f0ca-3b45-f26e7ecaf0d8" testName="TestCalcBeta" computerName="PAVVIN-PC" duration="00:00:00.0005440" startTime="2014-09-26T20:15:39.7102874+06:00" endTime="2014-09-26T20:15:39.7152881+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1047f84-4c06-49a3-a7ec-568feff5e381">
+    </UnitTestResult>
+    <UnitTestResult executionId="1bf73879-e153-4788-8a3d-d87ec24c4865" testId="cda0b258-88d1-16ab-b8fd-2c860414e549" testName="TestMain1" computerName="PAVVIN-PC" duration="00:00:00.3461751" startTime="2014-09-26T20:15:39.7212888+06:00" endTime="2014-09-26T20:15:40.0723334+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bf73879-e153-4788-8a3d-d87ec24c4865">
+      <Output>
+        <StdOut>Ошибка данных в 4 строке.
+Ошибка данных в 11 строке.
+Ошибка данных в 14 строке.
+Ошибка данных в 37 строке.
+ A - 14  B - 4  C - 11.5240635414383  Alpha - 45  Beta - 120.792362334603  Hamma - 14.207637665397 
+ A - 24  B - 4  C - 21.3596698947381  Alpha - 45  Beta - 127.390597778256  Hamma - 7.60940222174397 
+ A - 3.4  B - 4  C - 2.88560141941431  Alpha - 45  Beta - 56.4245621761448  Hamma - 78.5754378238552 
+ A - 54  B - 4  C - 51.2496816626934  Alpha - 45  Beta - 131.836286367076  Hamma - 3.16371363292349 
+ A - 64  B - 4  C - 61.2369278134729  Alpha - 45  Beta - 132.352665802774  Hamma - 2.64733419722562 
+ A - 74  B - 4  C - 71.2277529165252  Alpha - 45  Beta - 132.724207902909  Hamma - 2.27579209709098 
+ A - 84  B - 4  C - 81.2208362616554  Alpha - 45  Beta - 133.004333410093  Hamma - 1.99566658990718 
+ A - 94  B - 4  C - 91.2154356485113  Alpha - 45  Beta - 133.223075767125  Hamma - 1.77692423287565 
+ A - 14  B - 4  C - 11.5240635414383  Alpha - 45  Beta - 120.792362334603  Hamma - 14.207637665397 
+ A - 34  B - 4  C - 31.2996318751077  Alpha - 45  Beta - 129.815328416657  Hamma - 5.18467158334281 
+ A - 44  B - 4  C - 41.2686129282574  Alpha - 45  Beta - 131.070038060949  Hamma - 3.92996193905092 
+ A - 64  B - 1.4  C - 63.0178265636905  Alpha - 45  Beta - 134.099901343746  Hamma - 0.900098656253747 
+ A - 74  B - 4  C - 71.2277529165252  Alpha - 45  Beta - 132.724207902909  Hamma - 2.27579209709098 
+ A - 84  B - 0.4  C - 83.7176350854721  Alpha - 45  Beta - 134.806424004879  Hamma - 0.193575995120069 
+ A - 94  B - 4  C - 91.2154356485113  Alpha - 45  Beta - 133.223075767125  Hamma - 1.77692423287565 
+ A - 14  B - 4  C - 11.5240635414383  Alpha - 45  Beta - 120.792362334603  Hamma - 14.207637665397 
+ A - 24  B - 4  C - 21.3596698947381  Alpha - 45  Beta - 127.390597778256  Hamma - 7.60940222174397 
+ A - 34  B - 4  C - 31.2996318751077  Alpha - 45  Beta - 129.815328416657  Hamma - 5.18467158334281 
+ A - 44  B - 4  C - 41.2686129282574  Alpha - 45  Beta - 131.070038060949  Hamma - 3.92996193905092 
+ A - 54  B - 4  C - 51.2496816626934  Alpha - 45  Beta - 131.836286367076  Hamma - 3.16371363292349 
+ A - 64  B - 4  C - 61.2369278134729  Alpha - 45  Beta - 132.352665802774  Hamma - 2.64733419722562 
+ A - 744  B - 4  C - 741.176969716665  Alpha - 45  Beta - 134.781351368341  Hamma - 0.218648631659703 
+ A - 84  B - 4  C - 81.2208362616554  Alpha - 45  Beta - 133.004333410093  Hamma - 1.99566658990718 
+ A - 94  B - 4  C - 91.2154356485113  Alpha - 45  Beta - 133.223075767125  Hamma - 1.77692423287565 
+ A - 14  B - 4  C - 11.5240635414383  Alpha - 45  Beta - 120.792362334603  Hamma - 14.207637665397 
+ A - 24  B - 4  C - 21.3596698947381  Alpha - 45  Beta - 127.390597778256  Hamma - 7.60940222174397 
+ A - 34  B - 4  C - 31.2996318751077  Alpha - 45  Beta - 129.815328416657  Hamma - 5.18467158334281 
+ A - 44  B - 4  C - 41.2686129282574  Alpha - 45  Beta - 131.070038060949  Hamma - 3.92996193905092 
+ A - 54  B - 4  C - 51.2496816626934  Alpha - 45  Beta - 131.836286367076  Hamma - 3.16371363292349 
+ A - 64  B - 4  C - 60.0131512681065  Alpha - 4.5  Beta - 175.200372638714  Hamma - 0.299627361286265 
+ A - 74  B - 4  C - 71.2277529165252  Alpha - 45  Beta - 132.724207902909  Hamma - 2.27579209709098 
+ A - 84  B - 4  C - 81.2208362616554  Alpha - 45  Beta - 133.004333410093  Hamma - 1.99566658990718 
+ A - 94  B - 4  C - 91.2154356485113  Alpha - 45  Beta - 133.223075767125  Hamma - 1.77692423287565 
+ A - 24  B - 4  C - 21.3596698947381  Alpha - 45  Beta - 127.390597778256  Hamma - 7.60940222174397 
+ A - 34  B - 4  C - 31.2996318751077  Alpha - 45  Beta - 129.815328416657  Hamma - 5.18467158334281 
+ A - 44  B - 4  C - 41.2686129282574  Alpha - 45  Beta - 131.070038060949  Hamma - 3.92996193905092 
+ A - 54  B - 4  C - 51.2496816626934  Alpha - 45  Beta - 131.836286367076  Hamma - 3.16371363292349 
+ A - 64  B - 4  C - 61.2369278134729  Alpha - 45  Beta - 132.352665802774  Hamma - 2.64733419722562 
+ A - 74  B - 4  C - 71.2277529165252  Alpha - 45  Beta - 132.724207902909  Hamma - 2.27579209709098 
+ A - 84  B - 4  C - 81.2208362616554  Alpha - 45  Beta - 133.004333410093  Hamma - 1.99566658990718 
+ A - 94  B - 4  C - 91.2154356485113  Alpha - 45  Beta - 133.223075767125  Hamma - 1.77692423287565 
+ A - 14  B - 4  C - 11.5240635414383  Alpha - 45  Beta - 120.792362334603  Hamma - 14.207637665397 
+ A - 24  B - 4  C - 21.3596698947381  Alpha - 45  Beta - 127.390597778256  Hamma - 7.60940222174397 
+ A - 34  B - 4  C - 31.2996318751077  Alpha - 45  Beta - 129.815328416657  Hamma - 5.18467158334281 
+ A - 44  B - 4  C - 41.2686129282574  Alpha - 45  Beta - 131.070038060949  Hamma - 3.92996193905092 
+ A - 54  B - 4  C - 51.2496816626934  Alpha - 45  Beta - 131.836286367076  Hamma - 3.16371363292349 
+Файл кончился. Считано 56 записей
+ A - 64  B - 4  C - 61.2369278134729  Alpha - 45  Beta - 132.352665802774  Hamma - 2.64733419722562 
+ A - 74  B - 4  C - 71.2277529165252  Alpha - 45  Beta - 132.724207902909  Hamma - 2.27579209709098 
+ A - 84  B - 4  C - 81.2208362616554  Alpha - 45  Beta - 133.004333410093  Hamma - 1.99566658990718 
+ A - 94  B - 4  C - 91.2154356485113  Alpha - 45  Beta - 133.223075767125  Hamma - 1.77692423287565 
+ A - 14  B - 4  C - 11.5240635414383  Alpha - 45  Beta - 120.792362334603  Hamma - 14.207637665397 
+ A - 24  B - 4  C - 21.3596698947381  Alpha - 45  Beta - 127.390597778256  Hamma - 7.60940222174397</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="72148eb5-de3b-4076-858a-65ff754aad71" testId="d905214a-0b6a-8ea3-c22a-8594a3904ae4" testName="TestCalcC" computerName="PAVVIN-PC" duration="00:00:00.0002287" startTime="2014-09-26T20:15:40.0758338+06:00" endTime="2014-09-26T20:15:40.0793343+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72148eb5-de3b-4076-858a-65ff754aad71">
+    </UnitTestResult>
+    <UnitTestResult executionId="5fa880a7-cecb-40c5-918f-907d5abda4f6" testId="eb705fd3-2c48-d7d8-45d8-e28099c65753" testName="TestMain2" computerName="PAVVIN-PC" duration="00:00:00.0003948" startTime="2014-09-26T20:15:40.0838349+06:00" endTime="2014-09-26T20:15:40.0883354+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fa880a7-cecb-40c5-918f-907d5abda4f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="c743c33e-a909-4809-9081-72f84485baf1" testId="f6549885-ea20-1c9f-08ca-a651e5a2b0c1" testName="TestCalcHamma" computerName="PAVVIN-PC" duration="00:00:00.0002755" startTime="2014-09-26T20:15:40.0918359+06:00" endTime="2014-09-26T20:15:40.0958364+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c743c33e-a909-4809-9081-72f84485baf1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,4 @@
+c:\users\pavvin\documents\visual studio 2010\Projects\FuncTest\FuncTest\bin\Debug\FuncTest.exe
+c:\users\pavvin\documents\visual studio 2010\Projects\FuncTest\FuncTest\bin\Debug\FuncTest.pdb
+c:\users\pavvin\documents\visual studio 2010\Projects\FuncTest\FuncTest\obj\x86\Debug\FuncTest.exe
+c:\users\pavvin\documents\visual studio 2010\Projects\FuncTest\FuncTest\obj\x86\Debug\FuncTest.pdb

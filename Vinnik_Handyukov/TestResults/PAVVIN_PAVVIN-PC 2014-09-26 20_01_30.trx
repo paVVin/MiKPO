@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="17803ab5-258d-46de-9aad-650b357db49e" name="PAVVIN@PAVVIN-PC 2014-09-26 20:01:30" runUser="PAVVIN-PC\PAVVIN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4d9899d7-1909-47d2-82d6-bdb7a4dab225">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PAVVIN_PAVVIN-PC 2014-09-26 20_01_30">
+      <DeploymentItem filename="C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\bin\Debug\Vinnik_Handyukov.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-26T20:01:30.4674473+06:00" queuing="2014-09-26T20:01:30.4784487+06:00" start="2014-09-26T20:01:30.4854496+06:00" finish="2014-09-26T20:01:30.8784995+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCheck1" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="c7099b90-4b83-6407-b217-b0d757c027eb">
+      <Execution id="a6b94a40-78fd-42e5-b525-f2dffb2ed7fb" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheck1" />
+    </UnitTest>
+    <UnitTest name="TestToRad" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="760649c4-9401-2b48-9cc2-4f7b8e7ef4ad">
+      <Execution id="03d60bd4-4abd-45e7-a0ac-dd7c969d3d38" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestToRad" />
+    </UnitTest>
+    <UnitTest name="TestCalcC" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="d905214a-0b6a-8ea3-c22a-8594a3904ae4">
+      <Execution id="bc4f5ee8-c28b-47b3-b836-7407ca45b0ea" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCalcC" />
+    </UnitTest>
+    <UnitTest name="TestCheck3" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="c1d5f9f6-8c49-7906-8f05-c60e2c9c0710">
+      <Execution id="2e7b75ad-df42-4591-a5b2-390a5a614e37" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheck3" />
+    </UnitTest>
+    <UnitTest name="TestCheck2" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="cc93fb6a-2fdd-4ca0-ce14-1fad4e30bec4">
+      <Execution id="e1c5d422-3f90-4a09-99c8-4df6f7e88aa1" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheck2" />
+    </UnitTest>
+    <UnitTest name="TestToGRad" storage="c:\users\pavvin\desktop\downloaded\mikpo-master\mikpo-master\vinnik_handyukov\unittests\bin\debug\unittests.dll" id="77f3d16f-f6b2-1614-edbc-bcb765aeebdc">
+      <Execution id="4fddf440-58cb-444d-95c2-8ff7851cad1b" />
+      <TestMethod codeBase="C:/Users/PAVVIN/Desktop/Downloaded/MiKPO-master/MiKPO-master/Vinnik_Handyukov/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.UnitTests, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestToGRad" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="760649c4-9401-2b48-9cc2-4f7b8e7ef4ad" executionId="03d60bd4-4abd-45e7-a0ac-dd7c969d3d38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77f3d16f-f6b2-1614-edbc-bcb765aeebdc" executionId="4fddf440-58cb-444d-95c2-8ff7851cad1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1d5f9f6-8c49-7906-8f05-c60e2c9c0710" executionId="2e7b75ad-df42-4591-a5b2-390a5a614e37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7099b90-4b83-6407-b217-b0d757c027eb" executionId="a6b94a40-78fd-42e5-b525-f2dffb2ed7fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc93fb6a-2fdd-4ca0-ce14-1fad4e30bec4" executionId="e1c5d422-3f90-4a09-99c8-4df6f7e88aa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d905214a-0b6a-8ea3-c22a-8594a3904ae4" executionId="bc4f5ee8-c28b-47b3-b836-7407ca45b0ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="03d60bd4-4abd-45e7-a0ac-dd7c969d3d38" testId="760649c4-9401-2b48-9cc2-4f7b8e7ef4ad" testName="TestToRad" computerName="PAVVIN-PC" duration="00:00:00.0212298" startTime="2014-09-26T20:01:30.4929505+06:00" endTime="2014-09-26T20:01:30.7654851+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03d60bd4-4abd-45e7-a0ac-dd7c969d3d38">
+    </UnitTestResult>
+    <UnitTestResult executionId="4fddf440-58cb-444d-95c2-8ff7851cad1b" testId="77f3d16f-f6b2-1614-edbc-bcb765aeebdc" testName="TestToGRad" computerName="PAVVIN-PC" duration="00:00:00.0238280" startTime="2014-09-26T20:01:30.7694856+06:00" endTime="2014-09-26T20:01:30.7984893+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fddf440-58cb-444d-95c2-8ff7851cad1b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected a difference no greater than &lt;0,0001&gt; between expected value &lt;180&gt; and actual value &lt;180,0004&gt;. </Message>
+          <StackTrace>   в UnitTests.UnitTests.TestToGRad() в C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\UnitTests.cs:строка 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e7b75ad-df42-4591-a5b2-390a5a614e37" testId="c1d5f9f6-8c49-7906-8f05-c60e2c9c0710" testName="TestCheck3" computerName="PAVVIN-PC" duration="00:00:00.0025270" startTime="2014-09-26T20:01:30.8029899+06:00" endTime="2014-09-26T20:01:30.8089907+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e7b75ad-df42-4591-a5b2-390a5a614e37">
+      <Output>
+        <StdOut>Ошибка данных в 0 строке.</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   в UnitTests.UnitTests.TestCheck3() в C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\UnitTests.cs:строка 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6b94a40-78fd-42e5-b525-f2dffb2ed7fb" testId="c7099b90-4b83-6407-b217-b0d757c027eb" testName="TestCheck1" computerName="PAVVIN-PC" duration="00:00:00.0003597" startTime="2014-09-26T20:01:30.8129912+06:00" endTime="2014-09-26T20:01:30.8174917+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6b94a40-78fd-42e5-b525-f2dffb2ed7fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1c5d422-3f90-4a09-99c8-4df6f7e88aa1" testId="cc93fb6a-2fdd-4ca0-ce14-1fad4e30bec4" testName="TestCheck2" computerName="PAVVIN-PC" duration="00:00:00.0088627" startTime="2014-09-26T20:01:30.8204921+06:00" endTime="2014-09-26T20:01:30.8389945+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1c5d422-3f90-4a09-99c8-4df6f7e88aa1">
+      <Output>
+        <StdOut>Ошибка данных в 0 строке.</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   в UnitTests.UnitTests.TestCheck2() в C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\UnitTests.cs:строка 28
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc4f5ee8-c28b-47b3-b836-7407ca45b0ea" testId="d905214a-0b6a-8ea3-c22a-8594a3904ae4" testName="TestCalcC" computerName="PAVVIN-PC" duration="00:00:00.0006041" startTime="2014-09-26T20:01:30.8459954+06:00" endTime="2014-09-26T20:01:30.8539964+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc4f5ee8-c28b-47b3-b836-7407ca45b0ea">
+    </UnitTestResult>
+  </Results>
+</TestRun>

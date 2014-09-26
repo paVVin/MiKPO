@@ -7,3 +7,7 @@ C:\Documents and Settings\Admin\Рабочий стол\MiKPO-master\MiKPO-maste
 C:\Documents and Settings\Admin\Рабочий стол\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\bin\Debug\Vinnik_Handyukov.exe
 C:\Documents and Settings\Admin\Рабочий стол\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\bin\Debug\Vinnik_Handyukov.pdb
 C:\Documents and Settings\Admin\Рабочий стол\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\obj\x86\Debug\Vinnik_Handyukov.exe
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\obj\x86\Debug\Vinnik_Handyukov.pdb
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\bin\Debug\Vinnik_Handyukov.exe
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\Vinnik_Handyukov\bin\Debug\Vinnik_Handyukov.pdb

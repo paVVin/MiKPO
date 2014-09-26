@@ -1,0 +1,7 @@
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\bin\Debug\Vinnik_Handyukov.exe
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\bin\Debug\Vinnik_Handyukov.pdb
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\PAVVIN\Desktop\Downloaded\MiKPO-master\MiKPO-master\Vinnik_Handyukov\UnitTests\obj\Debug\UnitTests.pdb

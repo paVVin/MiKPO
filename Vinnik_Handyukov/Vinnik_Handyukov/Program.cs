@@ -7,9 +7,9 @@ using System.Globalization;
 
 namespace Vinnik_Handyukov
 {
-    class Program
+    public class Program
     {
-        struct data
+        public struct data
         {
             public double a;
             public double b;
@@ -20,7 +20,7 @@ namespace Vinnik_Handyukov
         static int count = 0;
         static string in_file;
         static string out_file;
-        static bool check(string[] raw)
+        public static bool check(string[] raw)
         {
             bool result = false;
             try
@@ -38,24 +38,24 @@ namespace Vinnik_Handyukov
             return result;
         }
 
-        static double ToRad(double alpha)
+        public static double ToRad(double alpha)
         {
             return alpha * Math.PI / 180;
         }
 
-        static double ToGrad(double alpha)
+        public static double ToGrad(double alpha)
         {
             return alpha * 180 / Math.PI;
         }
 
-        static double calcC(data raw)
+        public static double calcC(data raw)
         {
             double angleRad=ToRad(raw.alpha);
             double C = Math.Sqrt(Math.Pow(raw.a, 2) + Math.Pow(raw.b, 2) - 2 * raw.a * raw.b * Math.Cos(angleRad));
             return C;
         }
 
-        static double calcBeta(data raw)
+        public static double calcBeta(data raw)
         {
             double angleGrad = 0;
             double buf = (Math.Pow(raw.c, 2) + Math.Pow(raw.b, 2) - Math.Pow(raw.a, 2)) / (2 * raw.b * raw.c);
@@ -63,7 +63,7 @@ namespace Vinnik_Handyukov
             return angleGrad;
         }
 
-        static double calcHamma(data raw)
+        public static double calcHamma(data raw)
         {
             double angleGrad = 0;
             double buf = (Math.Pow(raw.c, 2) + Math.Pow(raw.a, 2) - Math.Pow(raw.b, 2)) / (2 * raw.a * raw.c);
@@ -71,14 +71,14 @@ namespace Vinnik_Handyukov
             return angleGrad;
         }
 
-        static void toFile(data dat)
+        public static void toFile(data dat)
         {
             StreamWriter sw = new StreamWriter(out_file, true, Encoding.Default);
             sw.WriteLine("{0} ; {1} ; {2}", dat.a, dat.b, dat.c);
             sw.Close();
         }
 
-        static void calcAll(data[] raw)
+        public static void calcAll(data[] raw)
         {
             for (int i = 0; i < raw.Length; i++)
             {
@@ -96,7 +96,7 @@ namespace Vinnik_Handyukov
             }
         }
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (args.Length >= 2)
             {
