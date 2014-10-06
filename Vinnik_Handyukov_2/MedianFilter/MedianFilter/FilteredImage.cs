@@ -18,17 +18,19 @@ namespace MedianFilter
         Byte[,] Green;
         Byte[,] Blue;
 
-        private void BitmapToArrays(Bitmap file, ref byte[,] red, ref byte[,] green, ref byte[,] blue)
+        private void BitmapToArrays(Bitmap file, ref Byte[,] red, ref Byte[,] green, ref Byte[,] blue)
         {
             for (int y = 0; y < file.Height; y++)
+            {
                 for (int x = 0; x < file.Width; x++)
                 {
                     Color c = file.GetPixel(x, y);
-                    red[x, y] = (Byte)c.R;
-                    green[x, y] = (Byte)c.G;
-                    blue[x, y] = (Byte)c.B;
+                    red[y, x] = (Byte)c.R;
+                    green[y, x] = (Byte)c.G;
+                    blue[y, x] = (Byte)c.B;
                     filtered.SetPixel(x, y, Color.Black);
                 }
+            }
         }
 
         private Bitmap ArraysToBitmap(Byte[,] red, Byte[,] green, Byte[,] blue)
@@ -37,7 +39,7 @@ namespace MedianFilter
             for (int x = 0; x < result.Width; x++)
                 for (int y = 0; y < result.Height; y++)
                 {
-                    Color c = Color.FromArgb(red[x, y], green[x, y], blue[x, y]);
+                    Color c = Color.FromArgb(red[y, x], green[y, x], blue[y, x]);
                     result.SetPixel(x, y, c);
                 }
             return result;
@@ -49,8 +51,8 @@ namespace MedianFilter
             Byte[] buf = new Byte[net * net];
 
             int Nh = 1;
-            int heig = arr.GetLength(1);
-            int wid = arr.GetLength(0);
+            int heig = arr.GetLength(0);
+            int wid = arr.GetLength(1);
             int i, y, x, yy, yyy, xx, xxx;
             for (y = Nh; y < heig - Nh; y++) 
             {
@@ -94,9 +96,9 @@ namespace MedianFilter
             Red = new Byte[file.Height, file.Width];
             Green = new Byte[file.Height, file.Width];
             Blue = new Byte[file.Height, file.Width];
-
+            Console.WriteLine("ok4");
             BitmapToArrays(file, ref Red, ref Green, ref Blue);
-
+            Console.WriteLine("ok5");
             Object obRed = (Object)Red;
             Object obGreen = (Object)Green;
             Object obBlue = (Object)Blue;
@@ -109,14 +111,15 @@ namespace MedianFilter
             ThreadList.Add(thr1);
             ThreadList.Add(thr2);
             ThreadList.Add(thr3);
-
+            Console.WriteLine("ok6");
             thr1.Start(obRed);
             thr2.Start(obGreen);
             thr3.Start(obBlue);
 
             Wait(ThreadList);
-
+            Console.WriteLine("ok7");
             filtered = ArraysToBitmap(Red, Green, Blue);
+            Console.WriteLine("ok8");
             filtered.Save(path_out_file, System.Drawing.Imaging.ImageFormat.Bmp);
             Console.WriteLine("Файл успешно отфильтрован");
         }
@@ -128,13 +131,16 @@ namespace MedianFilter
             try
             {
                 this.original = new Bitmap(Image.FromFile(in_f));
+                Console.WriteLine("ok1");
                 this.filtered = new Bitmap(Image.FromFile(in_f));
+                Console.WriteLine("ok2");
                 path_out_file = out_f;
                 Filter(filtered);
+                Console.WriteLine("ok3");
             }
             catch
             {
-                Console.WriteLine("Отстутствует файл-источник или файл слишком мал");
+                Console.WriteLine("Ошибка при фильтровании файла");
             }
         }
     }

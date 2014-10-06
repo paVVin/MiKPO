@@ -2,3 +2,7 @@ c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\
 c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\bin\Debug\MedianFilter.pdb
 c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\obj\x86\Debug\MedianFilter.exe
 c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\obj\x86\Debug\MedianFilter.pdb
+C:\Users\PAVVIN\Documents\Visual Studio 2010\Projects\Vinnik_Handyukov_2\MedianFilter\MedianFilter\obj\x86\Debug\MedianFilter.exe
+C:\Users\PAVVIN\Documents\Visual Studio 2010\Projects\Vinnik_Handyukov_2\MedianFilter\MedianFilter\obj\x86\Debug\MedianFilter.pdb
+C:\Users\PAVVIN\Documents\Visual Studio 2010\Projects\Vinnik_Handyukov_2\MedianFilter\MedianFilter\bin\Debug\MedianFilter.exe
+C:\Users\PAVVIN\Documents\Visual Studio 2010\Projects\Vinnik_Handyukov_2\MedianFilter\MedianFilter\bin\Debug\MedianFilter.pdb
