@@ -1,0 +1,4 @@
+c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\bin\Debug\MedianFilter.exe
+c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\bin\Debug\MedianFilter.pdb
+c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\obj\x86\Debug\MedianFilter.exe
+c:\users\pavvin\documents\visual studio 2010\Projects\MedianFilter\MedianFilter\obj\x86\Debug\MedianFilter.pdb
