@@ -1,0 +1,4 @@
+c:\users\pavvin\documents\visual studio 2010\Projects\Cars\Cars\bin\Debug\Cars.exe
+c:\users\pavvin\documents\visual studio 2010\Projects\Cars\Cars\bin\Debug\Cars.pdb
+c:\users\pavvin\documents\visual studio 2010\Projects\Cars\Cars\obj\x86\Debug\Cars.exe
+c:\users\pavvin\documents\visual studio 2010\Projects\Cars\Cars\obj\x86\Debug\Cars.pdb
